@@ -15,10 +15,10 @@ provider "aws" {
   region = "eu-west-2"
   default_tags {
     tags = {
-	    #Project     = "pims-abondoned-visits"	
+      Project     = "aws-vpc"	
       Envionment  = "${var.env}"
       Managed_by  = "terraform"
-      terraform-base-path = "terraform-aws-monitoring-alerting"
+      terraform-base-path = "vpc"
     }
   }
 }
