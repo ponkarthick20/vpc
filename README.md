@@ -17,8 +17,8 @@ internet_gateway_id: ID of the Internet Gateway
 
 ## To use this module:
 
-1. Create a new directory and copy all these files into it
-2. Initialize Terraform: `terraform init`
+1. Do `git checkout`
+2. Go to vpc/ and Initialize Terraform: `terraform init`
 3. Review the plan: `terraform plan`
 4. Apply the configuration: `terraform apply`
 
